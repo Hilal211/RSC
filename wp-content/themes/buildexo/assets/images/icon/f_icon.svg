@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f60;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #f60;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="10" y="5" width="7" height="2" rx="1" ry="1"/>
+  <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-2" cx="6" cy="6" r="5"/>
+</svg>

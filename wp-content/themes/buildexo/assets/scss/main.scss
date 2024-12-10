@@ -1,0 +1,92 @@
+/*-----------------------------------------------------------------------------------
+
+    Project Name: Truner - Construction Html Template
+    Author: Themexriver -->> (https://themeforest.net/user/themexriver)
+    Support: themexriver@gmail.com
+    Description: Truner - Construction Html Template
+    Developer: Mohammad Wasim Mia
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+	01. Theme default CSS
+    02. header
+    03. home
+    04. global
+    05. preloder
+    06. about
+    07. contact
+    08. faq
+    09. news
+    10. blog
+    11. shop
+    12. author
+    13. 404
+    14. footer
+
+-----------------------------------------------------------------------------------*/
+// abstracts scss
+@import
+    'abstracts/variables',
+    'abstracts/mixins';
+
+// base scss
+@import 
+    'base/fonts',
+    'base/base',
+    'base/spacing',
+    'base/typography',
+    'base/animation',
+    'base/overlay';
+
+// layout scss
+@import 
+    'layout/header',
+    'layout/navigation';
+ 
+// components scss
+@import 
+    'components/buttons',
+    'components/global',
+    'components/cursor',
+    'components/search',
+    'components/mobile-menu',
+    'components/sec-title',
+    'components/slider',
+    'components/service',
+    'components/feature',
+    'components/cta',
+    'components/counter',
+    'components/process',
+    'components/portfolio',
+    'components/brand',
+    'components/team',
+    'components/faq',
+    'components/blog',
+    'components/preloder',
+    'components/sidebar',
+    'components/about',
+    'components/benefit',
+    'components/contact',
+    'components/project',
+    'components/renovation',
+    'components/testimonial',
+    'components/breadcrumb',
+    'components/coming-soon',
+    'components/contact-form',
+    'components/404',
+    'components/pricing',
+    'components/appointment',
+    'components/career',
+    'components/shop',
+    'components/price-form',
+    'components/backtotop';
+
+
+// layout scss
+@import
+    'layout/footer';
+ 

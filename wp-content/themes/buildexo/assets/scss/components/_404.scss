@@ -1,0 +1,25 @@
+.error-page {
+    &__img {
+        margin-bottom: 65px;
+        @include respond(md) {
+            margin-bottom: 30px;
+        }
+    }
+    &__content {
+        h2 {
+            font-size: 50px;
+            margin-bottom: 50px;
+            @include respond(lg) {
+                font-size: 45px;
+            }
+            @include respond(md) {
+                font-size: 45px;
+                margin-bottom: 40px;
+            }
+            @include respond(xs) {
+                font-size: 25px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

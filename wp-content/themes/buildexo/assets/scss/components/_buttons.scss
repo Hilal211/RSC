@@ -1,0 +1,97 @@
+.thm-btn {
+    transition: all .2s cubic-bezier(.68,.01,.58,.75);
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: None;
+    color: var(--color-white);
+    border-style: none;
+    padding: 21px 34px;
+    align-self: center;
+    position: relative;
+    display: inline-block;
+    line-height: 1.1;
+    @include border-radius(4px);
+    background-color: var(--color-primary);
+    text-transform: uppercase;
+    &:hover {
+        background-color: var(--color-dark);
+        color: var(--color-white);
+    }
+    &--hover-white {
+        &:hover {
+            background-color: var(--color-white);
+            color: var(--color-dark);
+        }
+    }
+    &--2 {
+        @include border-radius(3px);
+        position: relative;
+        background-color: var(--color-primary-2);
+        z-index: 1;
+        &:hover {
+            background-color: var(--color-primary-2);
+            &::before {
+                width: 100%;
+                @include border-radius(0 3px 3px 0);
+            }
+        }
+        &::before {
+            position: absolute;
+            width: 4px;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #d42800;
+            content: "";
+            @include transition(.3s);
+            z-index: -1;
+        }
+        &--black {
+            background-color: #15161c;
+            color: var(--color-white);
+            &::before {
+                background-color: #fff;
+            }
+            &:hover {
+                color: #000;
+                background-color: #15161c;
+            }
+        }
+    }
+    &--3 {
+        position: relative;
+        padding-right: 40px;
+        @include border-radius(0);
+        z-index: 1;
+        &::before {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 0;
+            height: 100%;
+            content: "";
+            background-color: #252424;
+            @include transition(.3s);
+            z-index: -1;
+        }
+        &:hover {
+            background-color: var(--color-primary);
+            &::before {
+                width: 100%;
+            }
+        }
+        span {
+            position: absolute;
+            right: -40px;
+            top: 0;
+            width: 57px;
+            height: 100%;
+            background-color: #252424;
+            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            clip-path: polygon(0 0px, calc(100% - 12px) 0px, 100% 100%, 12px 100%);
+        }
+    }
+}

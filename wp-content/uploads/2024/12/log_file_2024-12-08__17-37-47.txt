@@ -1,0 +1,231 @@
+
+---Downloaded files---
+The import files for: Home 1 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/rsc
+Data file = D:\wamp64\www\rsc/wp-content/themes/buildexo/demo-import/content.xml
+Widget file = D:\wamp64\www\rsc/wp-content/themes/buildexo/demo-import/widgets.wie
+Customizer file = D:\wamp64\www\rsc/wp-content/themes/buildexo/demo-import/customizer.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "woocommerce-placeholder" (Media)
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "buildexo-plugin.zip" (Media)
+
+
+------
+Custom Framework file loaded.
+
+---Importing widgets---
+Default Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Search - No Title - Imported
+
+Footer 1 (Home 1) : 
+
+YT About Company - No Title - Imported
+
+Footer 2 (Home 1) : 
+
+Navigation Menu - Resources - Imported
+
+Footer 3 (Home 1) : 
+
+Navigation Menu - Company - Imported
+
+Footer 4 (Home 1) : 
+
+Navigation Menu - Help Page - Imported
+
+Footer Five (Home 2) : 
+
+YT About Company Two - No Title - Imported
+YT - Popular Posts - Latest Post - Imported
+Navigation Menu - Our Service - Imported
+Gallery - Project - Imported
+
+Footer Six 1 (Home 3) : 
+
+YT About Company Three - No Title - Imported
+
+Footer Six 2 (Home 3) : 
+
+Navigation Menu - Quick Link - Imported
+
+Footer Six 3 (Home 3) : 
+
+YT Contact Us - Contact Info - Imported
+
+Footer Six 4 (Home 3) : 
+
+Gallery - No Title - Imported
+
+Blog Listing : 
+
+Search - Search - Imported
+YT - Recent Posts - Recent Posts - Imported
+Categories - Categories - Imported
+Tag Cloud - Tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

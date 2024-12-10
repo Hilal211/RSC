@@ -1,0 +1,133 @@
+.contact {
+    &__mt {
+        margin-top: -247px;
+    }
+    &__wrap {
+        background-color: var(--color-white);
+        box-shadow: 0px 30px 160px 0px rgba(0, 0, 0, 0.15);
+        padding: 80px 230px 70px 75px;
+        @include respond(md) {
+            padding: 50px;
+        }
+    }
+    &__img {
+        margin-left: -200px;
+        margin-top: 30px;
+        @include respond(md) {
+            margin-left: 0;
+        }
+    }
+    &__form {
+        input, select {
+            background-color: #f1f1f1;
+            @include border-radius(2px);
+            font-size: 14px;
+            color: #000;
+            @include placeholder(#716e6d);
+            height: 56px;
+            margin-bottom: 0;
+            padding-left: 42px;
+        }
+        select {
+            color: #716e6d;
+            height: 55px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url(../img/icon/c_arrow.png);
+            background-position: calc(100% - 10px) 50%;
+            background-repeat: no-repeat;
+            padding-right: 20px;
+            background-color: transparent;
+            border: 0;
+            background-color: #f1f1f1;
+        }
+        .field-item {
+            position: relative;
+            margin-bottom: 7px;
+            i {
+                position: absolute;
+                left: 21px;
+                top: 50%;
+                @include transform(translateY(-50%));
+                color: #999999;
+                font-size: 14px;
+            }
+        }
+        button {
+            margin-top: 27px;
+        }
+    }
+    &__content-wrap {
+        padding: 100px 20px 200px 72px;
+        @include respond(lg) {
+            padding: 100px 20px 160px 50px;
+        }
+        @include respond(xs) {
+            padding: 80px 20px 130px 20px;
+        }
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            color: var(--color-white);
+            margin-bottom: 40px;
+            @include respond(lg) {
+                font-size: 32px;
+            }
+            @include respond(xs) {
+                font-size: 26px;
+            }
+        }
+    }
+    &__content-list {
+        li {
+            align-items: start;
+            &:not(:last-child) {
+                margin-bottom: 40px;
+            }
+            .icon {
+                width: 60px;
+                height: 60px;
+                @include border-radius(50%);
+                background-color: var(--color-primary);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+            }
+            .content {
+                width: calc(100% - 80px);
+                h4 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: var(--color-white);
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    color: var(--color-white);
+                }
+            }
+        }
+    }
+}
+.contact-img-left {
+    margin-left: -150px;
+    @include respond(lg) {
+        margin-left: 0;
+    }
+}
+.google-map {
+    height: 100%;
+    min-height: 300px;
+    &__inner {
+        height: 100%;
+        width: 100%;
+        iframe {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

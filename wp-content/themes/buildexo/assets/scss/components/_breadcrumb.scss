@@ -1,0 +1,51 @@
+.breadcrumb {
+    min-height: 550px;
+    padding: 162px 0;
+    padding-top: 162px;
+    margin: 0;
+    padding-top: 300px;
+    @include respond(lg) {
+        min-height: 400px;
+        padding: 100px 0;
+        padding-top: 220px;
+    }
+    @include respond(xs) {
+        min-height: 200px;
+        padding: 100px 0;
+        padding-top: 170px;
+    }
+    &__content {
+        h2 {
+            font-size: 60px;
+            color: var(--color-white);
+            margin-bottom: 10px;
+            @include respond(lg) {
+                font-size: 40px;
+            }
+            @include respond(xs) {
+                font-size: 34px;
+            }
+        }
+    }
+    .bread-crumb {
+        .breadcrumb-item {
+            color: var(--color-white);
+            font-size: 17px;
+            &:not(:first-child) {
+                padding-left: 18px;
+                &::before {
+                    content: "\f101";
+                    font-family: "Font Awesome 5 Pro";
+                    font-weight: 400;
+                    left: -3px;
+                    top: 1px;
+                    position: relative;
+                    color: var(--color-primary);
+                }
+            }
+            a {
+                color: var(--color-white);
+            }
+        }
+    }
+}

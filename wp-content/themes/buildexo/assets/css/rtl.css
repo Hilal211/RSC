@@ -1,0 +1,221 @@
+.tur-header-content .brand-logo {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.tur-header-content .brand-logo:before {
+    border-left: 199px solid #fff;
+    border-right: 0;
+    left: auto;
+    right: 6px;
+}
+
+.tur-header-section .header-cta-btn {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.header__action a:not(:last-child) {
+    margin-right: 0;
+    margin-left: 17px;
+}
+.tur-header-section .header-top-content .top-info li i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.tur-header-section .header-top-content .top-info li {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.tur-service-item-area .service-icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+
+.feature-tab-2 .feature-tab__img .feature-tab__cta .inner-img-icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.feature-tab-2 .feature-tab__img .feature-tab__cta .inner-icon {
+    margin-left: 0;
+    margin-right: -22px;
+}
+
+.feature-tab__item .row {flex-direction: row-reverse;}
+.tur-project-item .project-text .item-location {
+    left: auto;
+    right: 30px;
+}
+
+.tur-portfolio-item .tur-portfolio-location .location-item .inner-icon {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.award-tab-btn-area {
+    right: auto;
+    left: 80px;
+}
+.footer__top-left {
+    padding-right: 0;
+    padding-left: 65px;
+}
+
+.footer__cta i {
+    margin-right: 0;
+    margin-left: 19px;
+}
+.footer__social a:not(:last-child) {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.header-style-three .header__main {
+    padding-left: 0;
+    padding-right: 90px;
+}
+
+
+.header-style-three .header__main::after {
+    right: auto;
+    left: 210px;
+}
+
+.header-style-three .header__main::before {
+    left: auto;
+    right: 0;
+}
+
+.header__button {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.header-style-three .header__button a {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.header__button a i {
+    left: auto;
+    right: 10px;
+    display: none;
+}
+.footer-style-three .widget_media_gallery {
+    text-align: left;
+}
+.footer-style-three .footer-copyright::before, .footer-style-three .footer-copyright::after {
+    left: 0;
+    right: auto;
+}
+.testimonial__content-active .tx-item--author .avatar {
+    margin-right: 0;
+    margin-left: 22px;
+}
+.woocommerce .star-rating span {
+    right: auto;
+}
+.portfolio-item .tx-item--meta li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.main-menu ul li.menu-item-has-children > a::after {
+    padding-left: 0;
+    padding-right: 4px;
+}
+.service-item .tx-item--icon {
+    margin-right: 0;
+    margin-left: 14px;
+}
+.portfolio-item .tx-item--meta li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.header-style-two .header__right {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.header-style-two .header-search-btn {
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+.service-single .tx-item--list li i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.counter__icon {
+    margin-right: 0;
+    margin-left: 17px;
+}
+
+.counter__item.style2:not(:last-child) {
+    margin-right: 0;
+    margin-left: 70px;
+}
+.counter-single .tx-item--icon {
+    margin-right: 0;
+    margin-left: 45px;
+}
+.testimonial__img {
+    margin-right: 0;
+    margin-left: 70px;
+}
+.counter-single .tx-item--icon {
+    margin-right: 0;
+    margin-left: 45px;
+}
+
+.testimonial__img {
+    margin-right: 0;
+    margin-left: 70px;
+}
+
+.blog-nav {
+    right: auto;
+    left: 8px;
+}
+.blog-widget__item .thumb {
+    margin-right: 0;
+    margin-left: 23px;
+    padding-right: 0;
+    padding-left: 3px;
+}
+
+.footer__info li i {
+    margin-right: 0;
+    margin-left: 13px;
+}
+.blog-nav .blog-nav-item.blog-button-prev {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.main-menu__wrap.ul_li.navbar.navbar-expand-lg {
+    justify-content: flex-end;
+}
+
+.header__main {
+    flex-direction: revert;
+}
+
+.header__logo-bg::before {
+    right: auto;
+    left: 0;
+}
+
+.header-style-one .header__main {
+    margin-left: 0;
+    margin-right: -80px;
+    padding-left: 0;
+    padding-right: 160px;
+}
+
+.main-menu ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 45px;
+}

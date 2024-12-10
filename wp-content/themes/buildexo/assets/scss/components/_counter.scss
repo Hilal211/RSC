@@ -1,0 +1,165 @@
+.counter {
+    &__wrap {
+        @include respond(md) {
+            justify-content: start;
+        }
+    }
+    &__item {
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+        &.style2 {
+            &:not(:last-child) {
+                margin-right: 70px;
+            }
+            .counter__icon {
+                color: var(--color-primary-2);
+            }
+            .counter__number {
+                color: var(--color-primary-2);
+            }
+            .title {
+                font-family: var(--font-teko);
+                font-weight: 400;
+            }
+        }
+    }
+    &__icon {
+        width: 56px;
+        margin-right: 17px;
+        @include transform(translateY(7px));
+    }
+    &__content {
+        width: calc(100% - 73px);
+        .title {
+            font-size: 18px;
+            color: var(--color-white);
+            font-weight: 500;
+        }
+    }
+    &__number {
+        font-size: 57px;
+        font-weight: 800;
+        color: var(--color-primary);
+        line-height: 1;
+        @include respond(lg) {
+            font-size: 40px;
+        }
+        span {
+            line-height: 1 !important;
+        }
+        .suffix {
+            padding-left: 5px;
+            display: inline-block;
+            @include transform(translateY(8px));
+        }
+    }
+}
+.counter-single {
+    margin-left: 27px;
+    .tx-item {
+        &--icon {
+            margin-right: 45px;
+            position: relative;
+            z-index: 1;
+            @include respond(lg) {
+                margin-right: 20px;
+            }
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: -27px;
+                @include transform(translateY(-50%));
+                width: 53px;
+                height: 104px;
+                background-color: #f1f1f1;
+                content: "";
+                z-index: -1;
+            }
+        }
+        &--number {
+            font-size: 60px;
+            text-transform: uppercase;
+            color: #071157;
+            line-height: 1;
+            @include respond(lg) {
+                font-size: 30px;
+            }
+            span {
+                line-height: 1;
+            }
+        }
+        &--title {
+            font-size: 20px;
+            font-weight: 500;
+            font-family: var(--font-teko);
+            color: #7b7b7b;
+            text-transform: uppercase;
+        }
+    }
+}
+.counter-single2 {
+    .tx-item {
+        &--number {
+            font-size: 67px;
+            text-transform: uppercase;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 1px #000;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 15px;
+            @include transition(.3s);
+            position: relative;
+            z-index: 1;
+            &::before {
+                position: absolute;
+                top: 50%;
+                left: 53%;
+                @include transform(translate(-50%, -50%));
+                width: 172px;
+                height: 112px;
+                content: "";
+                background-color: #f9f9f9;
+                z-index: -1;
+            }
+            span {
+                line-height: 1;
+            }
+            .suffix {
+                font-size: 50px;
+                margin-left: 2px;
+            }
+            .suffix-text {
+                color: var(--color-black);
+                font-weight: 700;
+                font-size: 20px;
+                margin-left: 20px;
+                @include transform(translateY(3px));
+            }
+        }
+        &--title {
+            font-size: 16px;
+            font-weight: 400;
+            color: #656565;
+        }
+    }
+    &:hover {
+        .tx-item {
+            &--number {
+                color: var(--color-primary);
+                -webkit-text-stroke: 1px var(--color-primary);
+                .suffix {
+                    font-size: 50px;
+                    margin-left: 2px;
+                }
+                .suffix-text {
+                    color: var(--color-black);
+                    -webkit-text-stroke: 1px var(--color-black);
+                }
+            }
+        }
+    }
+}

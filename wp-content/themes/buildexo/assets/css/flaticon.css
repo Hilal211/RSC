@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon.ttf?ece5bbc15becdda68e2c43b74ca79165") format("truetype"),
+url("../fonts/flaticon.woff?ece5bbc15becdda68e2c43b74ca79165") format("woff"),
+url("../fonts/flaticon.woff2?ece5bbc15becdda68e2c43b74ca79165") format("woff2"),
+url("../fonts/flaticon.eot?ece5bbc15becdda68e2c43b74ca79165#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?ece5bbc15becdda68e2c43b74ca79165#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-phone:before {
+    content: "\f101";
+}
+.flaticon-arrow:before {
+    content: "\f102";
+}
+.flaticon-right-arrow:before {
+    content: "\f103";
+}
+.flaticon-house:before {
+    content: "\f104";
+}
+.flaticon-right-arrow-1:before {
+    content: "\f105";
+}
+.flaticon-management:before {
+    content: "\f106";
+}
+.flaticon-analytics:before {
+    content: "\f107";
+}
+.flaticon-maintenance:before {
+    content: "\f108";
+}
+.flaticon-play-button:before {
+    content: "\f109";
+}
+.flaticon-support:before {
+    content: "\f10a";
+}
+.flaticon-discover:before {
+    content: "\f10b";
+}
+.flaticon-start-up:before {
+    content: "\f10c";
+}
+.flaticon-motivation:before {
+    content: "\f10d";
+}
+.flaticon-star:before {
+    content: "\f10e";
+}
+.flaticon-settings:before {
+    content: "\f10f";
+}
+.flaticon-networking:before {
+    content: "\f110";
+}
+.flaticon-team:before {
+    content: "\f111";
+}
+.flaticon-worker:before {
+    content: "\f112";
+}
+.flaticon-broadcast:before {
+    content: "\f113";
+}
+.flaticon-live-streaming:before {
+    content: "\f114";
+}
+.flaticon-chatting:before {
+    content: "\f115";
+}
+.flaticon-broadcast-1:before {
+    content: "\f116";
+}
+.flaticon-bulb:before {
+    content: "\f117";
+}
+.flaticon-chip:before {
+    content: "\f118";
+}
+.flaticon-brain:before {
+    content: "\f119";
+}
+.flaticon-security:before {
+    content: "\f11a";
+}
+.flaticon-brain-1:before {
+    content: "\f11b";
+}
+.flaticon-search:before {
+    content: "\f11c";
+}
+.flaticon-helmet:before {
+    content: "\f11d";
+}
+.flaticon-design-thinking:before {
+    content: "\f11e";
+}
+.flaticon-satellite-dish:before {
+    content: "\f11f";
+}
+.flaticon-surf:before {
+    content: "\f120";
+}
+.flaticon-engineering:before {
+    content: "\f121";
+}
+.flaticon-growth-graph:before {
+    content: "\f122";
+}
+.flaticon-profit:before {
+    content: "\f123";
+}
+.flaticon-earth-grid:before {
+    content: "\f124";
+}
+.flaticon-connection:before {
+    content: "\f125";
+}
+.flaticon-television:before {
+    content: "\f126";
+}
+.flaticon-high-speed:before {
+    content: "\f127";
+}
+.flaticon-speedometer-1:before {
+    content: "\f128";
+}
+.flaticon-logo:before {
+    content: "\f129";
+}
+.flaticon-speed:before {
+    content: "\f12a";
+}
+.flaticon-tablet:before {
+    content: "\f12b";
+}
+.flaticon-4k:before {
+    content: "\f12c";
+}
+.flaticon-laptop:before {
+    content: "\f12d";
+}
+.flaticon-shopping-bag:before {
+    content: "\f12e";
+}
+.flaticon-broadcast-2:before {
+    content: "\f12f";
+}
+.flaticon-broadcast-3:before {
+    content: "\f130";
+}
+.flaticon-save:before {
+    content: "\f131";
+}
+.flaticon-4k-1:before {
+    content: "\f132";
+}
+.flaticon-artificial-intelligence:before {
+    content: "\f133";
+}
+.flaticon-artificial-intelligence-1:before {
+    content: "\f134";
+}
+.flaticon-idea:before {
+    content: "\f135";
+}
+.flaticon-coding:before {
+    content: "\f136";
+}
+.flaticon-vision:before {
+    content: "\f137";
+}
+.flaticon-artificial-intelligence-2:before {
+    content: "\f138";
+}
+.flaticon-brand:before {
+    content: "\f139";
+}
+.flaticon-rating:before {
+    content: "\f13a";
+}
+.flaticon-advanced:before {
+    content: "\f13b";
+}
+.flaticon-technical-support:before {
+    content: "\f13c";
+}
+.flaticon-workers:before {
+    content: "\f13d";
+}

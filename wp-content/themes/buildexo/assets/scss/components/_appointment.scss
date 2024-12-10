@@ -1,0 +1,25 @@
+.appointment {
+    &__img {
+        margin-left: -250px;
+        margin-right: 20px;
+        @include respond(laptop) {
+            margin-left: -50px;
+        }
+        @include respond(lg) {
+            margin-left: 0;
+            padding-right: 20px;
+        }
+    }
+    &__inner-img {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        @include transform(translateY(-50%));
+        @include respond(lg) {
+            max-width: 300px;
+        }
+        @include respond(xs) {
+            max-width: 200px;
+        }
+    }
+}

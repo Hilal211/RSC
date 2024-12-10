@@ -1,0 +1,22 @@
+.brand {
+    &__single {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 65px;
+        a {
+            display: inline-block;
+            -webkit-transition: all .3s cubic-bezier(0,0,.2,1)0s;
+            -khtml-transition: all .3s cubic-bezier(0,0,.2,1)0s;
+            -moz-transition: all .3s cubic-bezier(0,0,.2,1)0s;
+            -ms-transition: all .3s cubic-bezier(0,0,.2,1)0s;
+            -o-transition: all .3s cubic-bezier(0,0,.2,1)0s;
+            transition: all .3s cubic-bezier(0,0,.2,1)0s;
+            position: relative;
+            padding: 5px 0;
+            &:hover {
+               @include transform(translateY(-5px));
+            }
+        }
+    }
+}
